@@ -1,0 +1,28 @@
+*{
+	box-sizing: border-box;
+	margin: px ;
+}
+
+h1{
+	text-align: center;
+	margin-bottom: 50px;
+}
+
+h2{
+	background-color: yellow;
+	text-align: center;
+	width: 200px;
+}
+
+section{
+	background-color: gray;
+	margin: 0px auto;
+}
+
+@media (min-width: 992px){
+	section{
+		display: inline-block;
+		float: left;
+		width: 33.33%;
+	}
+}
