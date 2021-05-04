@@ -1,3 +1,4 @@
+/* ------Base style which its based on mobile first design.------*/
 *{
 	box-sizing: border-box;
 	margin: 0 auto;
@@ -28,7 +29,7 @@ h2{
 	position: absolute;
 	right: 0;
 }
-
+/* ------Desktop version------*/
 @media (min-width: 992px){
 	section{
 		display: inline-block;
@@ -36,8 +37,7 @@ h2{
 		width: 31%
 	}
 }
-
-
+/* ------Tablet version------*/
 @media (min-width: 768px) and (max-width: 991px){
 	section{
 		display: inline-block;
