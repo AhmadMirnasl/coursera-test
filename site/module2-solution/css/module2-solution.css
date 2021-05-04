@@ -1,17 +1,19 @@
 *{
 	box-sizing: border-box;
-	margin: 0;
-	padding: 0;
+	margin: 0 auto;
+	max-width: 1200px;
 }
 
 section{
 	background-color: gray;
 	position: relative;
+	margin: 1%;
+
 }
 
 p{
 	padding: 50px;
-	margin: 10px;
+	margin: 1%;
 }
 
 h1{
@@ -31,7 +33,7 @@ h2{
 	section{
 		display: inline-block;
 		float: left;
-		width: 33.33%
+		width: 31%
 	}
 }
 
@@ -40,10 +42,10 @@ h2{
 	section{
 		display: inline-block;
 		float: left;
-		width: 50%
+		width: 48%
 
 	}
 	#sec3{
-		width: 100%
+		width: 98%
 	}
 }
