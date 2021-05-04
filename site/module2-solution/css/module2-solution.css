@@ -5,7 +5,7 @@
 }
 
 section{
-	background-color: gray;
+	background-color: #bfb3b3;
 	position: relative;
 	margin: 1%;
 
@@ -22,7 +22,7 @@ h1{
 }
 
 h2{
-	background-color: lime;
+	background-color: #715c5c;
 	text-align: center;
 	width: 200px;
 	position: absolute;
