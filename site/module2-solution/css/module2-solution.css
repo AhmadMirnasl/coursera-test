@@ -4,6 +4,16 @@
 	padding: 0;
 }
 
+section{
+	background-color: gray;
+	position: relative;
+}
+
+p{
+	padding: 50px;
+	margin: 10px;
+}
+
 h1{
 	text-align: center;
 	margin-bottom: 50px;
@@ -12,38 +22,28 @@ h1{
 h2{
 	background-color: yellow;
 	text-align: center;
-	width: 33%;
-	position: relative;
-	left: 67%;
-}
-
-p{
-	padding: 20px;
-	margin: 20px;
-}
-
-section{
-	background-color: gray;
-	margin: 2px ;
-	position: relative;
+	width: 200px;
+	position: absolute;
+	right: 0;
 }
 
 @media (min-width: 992px){
 	section{
 		display: inline-block;
 		float: left;
-		width: 33%;
+		width: 33.33%
 	}
 }
 
-@media (min-width: 768px) and (max-width:991px ){
+
+@media (min-width: 768px) and (max-width: 991px){
 	section{
 		display: inline-block;
 		float: left;
-		width: 49%;
+		width: 50%
+
 	}
 	#sec3{
-		width: 100%;
+		width: 100%
 	}
 }
-
