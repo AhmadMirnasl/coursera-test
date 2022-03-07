@@ -8,6 +8,7 @@
 section{
 	background-color: #bfb3b3;
 	position: relative;
+	border: 1px solid black;
 	margin: 1%;
 
 }
@@ -29,6 +30,7 @@ h2{
 	width: 200px;
 	position: absolute;
 	right: 0;
+	border: 1px solid black;
 }
 /* ------Desktop version------*/
 @media (min-width: 992px){
